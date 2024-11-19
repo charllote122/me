@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.App {
+  text-align: center;
+}
+/* Hero Section */
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f4f8; /* Light background */
+  padding: 2rem;
+  flex-direction: column; /* Makes sure content stacks vertically */
+}
+
+.hero-content {
+  max-width: 700px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem; /* Adds space between paragraphs */
+  line-height: 1.5; /* Improves readability */
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background-color: #00bcd4;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #ff4081;
+}
+
+.hero-icon {
+  font-size: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-icon {
+    margin-top: 1rem;
+  }
+}
+
+
+
+/* About Section */
+.about {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills, .goals {
+  margin-top: 2rem;
+}
+
+.skills ul, .goals ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills li, .goals li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills strong, .goals strong {
+  color: #007bff;
+}
+
+.skills h3, .goals h3 {
+  font-size: 1.8rem;
+  color: #444;
+}
+/* Footer Styles */
+footer {
+  background-color: #222; /* Dark background */
+  color: #fff; /* White text */
+  text-align: center; /* Centered text */
+  padding: 2rem 0; /* Padding top and bottom */
+  font-size: 1rem; /* Set font size */
+  position: relative; /* For positioning */
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0; /* Remove default margin */
+}
+
+footer a {
+  color: #00bcd4; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make link text bold */
+}
+
+footer a:hover {
+  color: #ff4081; /* Hover effect on links */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  footer {
+    padding: 1rem 0; /* Less padding for smaller screens */
+    font-size: 0.9rem; /* Adjust font size for mobile */
+  }
+}
+
